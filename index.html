@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Christmas Light Animation</title>
+    <head>
+
+      <div class="container" id="container">
+        <div class="scaleContainer">
+        <label for="scaleSlider" id="scaleSliderLabel" class="scaleSliderLabel">Scaler</label>
+        <input type="range" id="scaleSlider" class="scaleSlider" min="1" max="9" value="5" step="1">
+        <label for="scaleSlider" id="scaleSliderValue" class="scaleSliderValue">5</label>
+        </div>
+
+        <div class="modContainer">
+           <label for="modSlider" id="modSliderLabel" class = "modSliderLabel">Modulo</label>
+         <input type="range" id="modSlider" class="nodSlider" min="1" max="9" value="2" step="1">
+         <label for="modSlider" id="modSliderValue" class="modSliderValue">2</label>
+
+        </div>
+
+      </div>
+     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
+
+    </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  touch-action: none;
+}
+
+canvas {
+  position: absolute;
+  left: 50%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+  touch-action: none;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  touch-action: none;
+}
+
+.scaleContainer {
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.modContainer {
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
